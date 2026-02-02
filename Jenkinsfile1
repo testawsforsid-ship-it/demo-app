@@ -6,7 +6,6 @@ pipeline {
             steps {
                 git branch: 'main',
                     url: 'https://github.com/siddubellanki/demo-app.git',
-                    credentialsId: 'github-creds'
             }
         }
 
